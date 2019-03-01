@@ -14,3 +14,6 @@ git log --pretty=format:'%H' -n 1
 
 #get commit count across all branches
 git rev-list --all --count
+
+#merge files
+git merge-file 1.0.24.4/MAIN_SEQ.sh dummy edp2439/MAIN_SEQ.sh
